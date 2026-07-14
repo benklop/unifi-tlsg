@@ -1,0 +1,446 @@
+[
+  {
+    "number": 1,
+    "title": "Lab: live SSH snapshot against TL-SG2424 V2",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/1",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "lab",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Lab: capture real SG2424 V2 `show` fixtures",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/2",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "lab",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Lab: end-to-end UniFi discovery + adopt",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/3",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "lab",
+      "inform"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Lab: adopt state survives daemon restart",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/4",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "lab"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Lab: validate AES-GCM Inform upgrade path",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/5",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "lab",
+      "inform"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Lab: run two SG2424 device agents concurrently",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/6",
+    "plan": "01-lab-validation.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "lab"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Inform: dump unknown setparam/mgmt_cfg/cmd keys",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/7",
+    "plan": "02-inform-hardening.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "enhancement",
+      "inform"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Inform: expand US24 inform payload for modern controllers",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/8",
+    "plan": "02-inform-hardening.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "enhancement",
+      "phase-1",
+      "inform"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Inform: discovery TLV audit vs real UniFi switch",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/9",
+    "plan": "02-inform-hardening.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-1",
+      "inform"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Inform: correct cfgversion reporting after successful apply",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/10",
+    "plan": "02-inform-hardening.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "inform"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Inform: handle upgrade/reboot/setdefault/locate commands",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/11",
+    "plan": "02-inform-hardening.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "enhancement",
+      "inform"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "CLI: disable/handle terminal paging (--More--)",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/12",
+    "plan": "03-cli-backend.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "bug",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "CLI: harden enable / configure mode transitions",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/13",
+    "plan": "03-cli-backend.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "CLI: parse `show interface counters` into port stats",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/14",
+    "plan": "03-cli-backend.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "phase-2",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 15,
+    "title": "CLI: detect combo port media-type (rj45/sfp)",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/15",
+    "plan": "03-cli-backend.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-2",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 16,
+    "title": "CLI: idempotent VLAN/port sync with stale membership cleanup",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/16",
+    "plan": "03-cli-backend.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 17,
+    "title": "CLI: reconnect and partial-failure handling",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/17",
+    "plan": "03-cli-backend.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 18,
+    "title": "CLI: optional telnet transport",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/18",
+    "plan": "03-cli-backend.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "enhancement",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 19,
+    "title": "Config: capture real UniFi setparam provisioning blobs",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/19",
+    "plan": "04-config-apply.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "testing",
+      "lab",
+      "inform"
+    ]
+  },
+  {
+    "number": 20,
+    "title": "Config: resolve UniFi network object IDs to 802.1Q VLAN IDs",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/20",
+    "plan": "04-config-apply.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "enhancement",
+      "phase-3"
+    ]
+  },
+  {
+    "number": 21,
+    "title": "Config: access/trunk/disable/name apply and verify on SG2424",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/21",
+    "plan": "04-config-apply.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "lab"
+    ]
+  },
+  {
+    "number": 22,
+    "title": "Config: debounce copy running-config startup-config",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/22",
+    "plan": "04-config-apply.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "enhancement",
+      "phase-3"
+    ]
+  },
+  {
+    "number": 23,
+    "title": "Config: report unsupported UniFi switch features",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/23",
+    "plan": "04-config-apply.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "documentation",
+      "phase-3"
+    ]
+  },
+  {
+    "number": 24,
+    "title": "Telemetry: improve MAC table / uplink for UniFi topology",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/24",
+    "plan": "05-telemetry-topology.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "enhancement",
+      "phase-2"
+    ]
+  },
+  {
+    "number": 25,
+    "title": "Telemetry: dual-SG2424 topology lab validation",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/25",
+    "plan": "05-telemetry-topology.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "phase-2",
+      "lab"
+    ]
+  },
+  {
+    "number": 26,
+    "title": "Test: Inform response handler unit tests",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/26",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "inform"
+    ]
+  },
+  {
+    "number": 27,
+    "title": "Test: discovery TLV unit tests",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/27",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "inform"
+    ]
+  },
+  {
+    "number": 28,
+    "title": "Test: Inform decode error-path coverage",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/28",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "inform"
+    ]
+  },
+  {
+    "number": 29,
+    "title": "Test: InformClient HTTP mock tests",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/29",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "inform"
+    ]
+  },
+  {
+    "number": 30,
+    "title": "Test: fake SSH session integration tests",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/30",
+    "plan": "06-testing.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "testing",
+      "cli-backend"
+    ]
+  },
+  {
+    "number": 31,
+    "title": "Test: golden CLI sequences for port apply",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/31",
+    "plan": "06-testing.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "testing"
+    ]
+  },
+  {
+    "number": 32,
+    "title": "Test: setparam mapping fixtures from captured UniFi configs",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/32",
+    "plan": "06-testing.md",
+    "milestone": "0.3 \u2013 Config apply",
+    "labels": [
+      "phase-3",
+      "testing"
+    ]
+  },
+  {
+    "number": 33,
+    "title": "Test: GitHub Actions CI for pytest + ruff",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/33",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "packaging"
+    ]
+  },
+  {
+    "number": 34,
+    "title": "Test: lab marker + CLI fixture capture script",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/34",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "testing",
+      "lab"
+    ]
+  },
+  {
+    "number": 35,
+    "title": "Test: document and execute manual lab checklist",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/35",
+    "plan": "06-testing.md",
+    "milestone": "0.2 \u2013 Lab validation",
+    "labels": [
+      "documentation",
+      "testing",
+      "lab"
+    ]
+  },
+  {
+    "number": 36,
+    "title": "Ops: systemd unit example",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/36",
+    "plan": "07-packaging-ops.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "packaging"
+    ]
+  },
+  {
+    "number": 37,
+    "title": "Ops: Docker / compose example (host networking)",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/37",
+    "plan": "07-packaging-ops.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "packaging"
+    ]
+  },
+  {
+    "number": 38,
+    "title": "Ops: secrets via environment / file references",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/38",
+    "plan": "07-packaging-ops.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "enhancement",
+      "packaging"
+    ]
+  },
+  {
+    "number": 39,
+    "title": "Ops: `unifi-tlsg status` + logging polish",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/39",
+    "plan": "07-packaging-ops.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "enhancement",
+      "packaging"
+    ]
+  },
+  {
+    "number": 40,
+    "title": "Ops: dual-switch docs, troubleshooting, changelog process",
+    "url": "https://github.com/benklop/unifi-tlsg/issues/40",
+    "plan": "07-packaging-ops.md",
+    "milestone": "1.0 \u2013 Production ready",
+    "labels": [
+      "documentation",
+      "packaging"
+    ]
+  }
+]

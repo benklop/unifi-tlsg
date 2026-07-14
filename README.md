@@ -72,6 +72,10 @@ Devices default to UniFi model `US24`. Override with `unifi_model` if a differen
 
 Controller network **IDs** vs VLAN **IDs** can differ depending on UniFi version; if trunks look wrong, inspect `state/*.json` `extra` fields from `setparam` and adjust mapping.
 
+## Roadmap
+
+See [docs/plans/](docs/plans/README.md) for remaining work and linked GitHub issues (`0.2` / `0.3` / `1.0` milestones).
+
 ## Development
 
 ```bash
