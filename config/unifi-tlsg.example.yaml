@@ -1,0 +1,44 @@
+# Copy to unifi-tlsg.yaml and fill in real values.
+#
+# Each device entry is one physical TL-SG switch that will appear in UniFi
+# as `unifi_model` (default US24).
+
+controller:
+  inform_url: http://192.168.1.10:8080/inform
+  # Optional; used for first adoption if different from inform_url.
+  # adopt_url: http://192.168.1.10:8080/inform
+
+inform_interval: 10
+# When true, VLAN/port apply commands are logged but not sent to the switch.
+dry_run_apply: false
+log_level: INFO
+
+devices:
+  - name: core-sg2424-a
+    mac: "00:11:22:33:44:55"   # use a unique locally-administered MAC if preferred
+    ip: "192.168.1.20"
+    model_profile: sg2424      # see: unifi-tlsg profiles
+    unifi_model: US24
+    firmware: "6.6.0.15156"
+    uplink_port: 24
+    state_dir: state
+    cli:
+      host: "192.168.1.20"
+      port: 22
+      transport: ssh
+      username: admin
+      password: "CHANGE_ME"
+      # enable_password: "CHANGE_ME"   # if different from login password
+      timeout: 15
+
+  # Second switch example:
+  # - name: core-sg2424-b
+  #   mac: "00:11:22:33:44:66"
+  #   ip: "192.168.1.21"
+  #   model_profile: sg2424
+  #   unifi_model: US24
+  #   uplink_port: 24
+  #   cli:
+  #     host: "192.168.1.21"
+  #     username: admin
+  #     password: "CHANGE_ME"

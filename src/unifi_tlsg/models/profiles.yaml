@@ -1,0 +1,44 @@
+# TP-Link TL-SG family hardware profiles.
+# Port numbering matches CLI `gigabitEthernet 1/0/N` (1-based).
+#
+# On SG2424 V2, ports 21-24 are combo RJ45/SFP (media-type {rj45|sfp}).
+
+sg2424:
+  product_name: TL-SG2424
+  copper_ports: 24
+  combo_ports: 4
+  dedicated_sfp_ports: 0
+  combo_port_numbers: [21, 22, 23, 24]
+  if_format: "1/0/{n}"
+  max_vlans: 512
+  notes: "24×1G RJ45 with 4 combo SFP (ports 21-24). Tested hardware (V2)."
+
+sg2216:
+  product_name: TL-SG2216
+  copper_ports: 16
+  combo_ports: 2
+  dedicated_sfp_ports: 0
+  combo_port_numbers: [15, 16]
+  if_format: "1/0/{n}"
+  max_vlans: 512
+  notes: "Shares CLI family with SG2424; combo ports assumed on last copper."
+
+sg2424p:
+  product_name: TL-SG2424P
+  copper_ports: 24
+  combo_ports: 4
+  dedicated_sfp_ports: 0
+  combo_port_numbers: [21, 22, 23, 24]
+  if_format: "1/0/{n}"
+  max_vlans: 512
+  notes: "PoE variant; PoE mapping to UniFi not yet implemented."
+
+sg2452:
+  product_name: TL-SG2452
+  copper_ports: 48
+  combo_ports: 0
+  dedicated_sfp_ports: 4
+  combo_port_numbers: []
+  if_format: "1/0/{n}"
+  max_vlans: 512
+  notes: "No combo ports per CLI guide; 4 dedicated SFP as ports 49-52."

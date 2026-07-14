@@ -1,0 +1,14 @@
+Port Gi1/0/1
+  PVID: 10
+  Allowed VLAN (Untagged): 10
+  Allowed VLAN (Tagged): 
+
+Port Gi1/0/3
+  PVID: 1
+  Allowed VLAN (Untagged): 1
+  Allowed VLAN (Tagged): 20-21,30
+
+Port Gi1/0/24
+  PVID: 1
+  Allowed VLAN (Untagged): 1
+  Allowed VLAN (Tagged): 10,20,30

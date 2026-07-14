@@ -1,0 +1,6 @@
+Port      Status    Duplex   Speed    Type
+Gi1/0/1   up        full     1000     copper
+Gi1/0/2   down      auto     auto     copper
+Gi1/0/3   up        full     100      copper
+Gi1/0/22  up        full     1000     sfp
+Gi1/0/24  up        full     1000     copper

@@ -1,0 +1,4 @@
+MAC Address        VLAN    Port         Type
+00:11:22:33:44:01  10      Gi1/0/1      dynamic
+aa:bb:cc:dd:ee:ff  20      Gi1/0/3      dynamic
+12:34:56:78:9a:bc  1       Gi1/0/24     static
